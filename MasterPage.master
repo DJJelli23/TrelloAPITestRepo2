@@ -20,7 +20,9 @@
                 <div class="row">
                     <div class="col-xs-12">
                         <div class="nav nav-tabs nav-justified" runat="server">
+                            <div class="tab-content">
 
+                            </div>
                         </div>
                     </div>
                 </div>
