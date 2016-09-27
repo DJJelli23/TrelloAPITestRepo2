@@ -17,6 +17,11 @@
     <div>
         <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
             <div class="container" runat="server">
+                <div class="row">
+                    <div class="col-xs-12">
+
+                    </div>
+                </div>
             </div>
         </asp:ContentPlaceHolder>
     </div>
