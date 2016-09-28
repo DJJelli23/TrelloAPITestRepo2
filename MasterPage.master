@@ -4,33 +4,29 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <meta charset="utf-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title></title>
-    <link href="Content/bootstrap.css" rel="stylesheet" />
-    <asp:ContentPlaceHolder id="head" runat="server">
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
-    <form id="form1" runat="server">
-    <div>
-        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
-            <div class="container" runat="server">
-                <div class="row">
-                    <div class="col-xs-12">
-                        <div class="nav nav-tabs nav-justified" runat="server">
-                            <div class="tab-content">
-
-                            </div>
-                        </div>
-                    </div>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        <div class="container" runat="server">
+            <div class="row" runat="server">
+                <div class="col-xs-12" runat="server">
+                    <ul class="nav nav-tabs nav-justified" runat="server">
+                        <li class="active">
+                            <a href="#" data-toggle="tab" runat="server">Home</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </asp:ContentPlaceHolder>
-    </div>
-    </form>
+        </div>
+    </asp:ContentPlaceHolder>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="Scripts/bootstrap.js"></script>
+    <script src="~/Scripts/bootstrap.js"></script>
 </body>
 </html>
